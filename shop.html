@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Collection</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .logo {
+            width: 50px;
+            height: 50px;
+            border-radius: 100px;
+            margin-right: 20px;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #fff;
+        }
+
+        .hero {
+            color: white;
+            text-align: center;
+            padding: 150px 0;
+            position: relative;
+        }
+
+        .hero::after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.4);
+        }
+
+        .hero h1 {
+            position: relative;
+            z-index: 2;
+            font-size: 4rem;
+            font-weight: 700;
+        }
+
+        .feature-box i {
+            font-size: 2rem;
+            color: #007bff;
+            margin-bottom: 10px;
+        }
+
+        .product-card {
+            border: none;
+            transition: 0.3s;
+        }
+
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .product-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        img {
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm py-3">
+        <div class="container">
+            <img class="logo" src="./shoes-logo-running-template-vector-47171975.avif" alt="">
+            <a class="navbar-brand fw-bold text-warning" href="#">Karma</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./shop.html">Shop</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <h1>Sports Collection</h1>
+    </section>
+
+
+    <section class="py-4 bg-light text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 feature-box">
+                    <i class="fa-solid fa-store"></i>
+                    <h5>Pick Up In Store</h5>
+                    <p>Aliquam erat volutpat ut sem nulla pharetra diam.</p>
+                </div>
+                <div class="col-md-4 feature-box">
+                    <i class="fa-solid fa-box"></i>
+                    <h5>Special Packaging</h5>
+                    <p>Aliquam erat volutpat ut sem nulla pharetra diam.</p>
+                </div>
+                <div class="col-md-4 feature-box">
+                    <i class="fa-solid fa-globe"></i>
+                    <h5>Free Global Returns</h5>
+                    <p>Aliquam erat volutpat ut sem nulla pharetra diam.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="bg-light p-4 d-flex align-items-center justify-content-between rounded">
+                        <div>
+                            <h4>Sports Shoes</h4>
+                            <p>Upto 25% Off</p>
+                            <button class="btn btn-dark">Show Now</button>
+                        </div>
+                        <img src="./6a723275-c65f-460c-bed7-207eeacdeac91728045283895-Red-Tape-Women-Mesh-Walking-Shoes-3051728045283630-1.jpg"
+                            alt="Sports Shoes" class="img-fluid" style="max-width: 150px;">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="bg-light p-4 d-flex align-items-center justify-content-between rounded">
+                        <div>
+                            <h4>Kids Collection</h4>
+                            <p>Upto 25% Off</p>
+                            <button class="btn btn-dark">Show Now</button>
+                        </div>
+                        <img src="./photo-1606107557195-0e29a4b5b4aa.jfif" alt="Kids Shoes" class="img-fluid"
+                            style="max-width: 150px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h3 class="mb-4">Trending Products</h3>
+            <div class="row g-4">
+                <div class="col-md-3 col-sm-6">
+                    <div class="card product-card">
+                        <img src="./card images/download.jfif" alt="Shoe 1">
+                        <div class="card-body text-center">
+                            <h6>Super Shoes</h6>
+                            <p class="text-muted mb-1">$110.00 <del>$150.00</del></p>
+                            <div class="text-warning">
+                                <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                    class="fa fa-star"></i><i class="fa fa-star-half"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6">
+                    <div class="card product-card">
+                        <img src="./card images/images (1).jfif" alt="Shoe 2">
+                        <div class="card-body text-center">
+                            <h6>Leather Brown</h6>
+                            <p class="text-muted mb-1">$120.00 <del>$180.00</del></p>
+                            <div class="text-warning">
+                                <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                    class="fa fa-star"></i><i class="fa fa-star-half"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6">
+                    <div class="card product-card">
+                        <img src="./card images/images (2).jfif" alt="Shoe 3">
+                        <div class="card-body text-center">
+                            <h6>Kids Shoes</h6>
+                            <p class="text-muted mb-1">$90.00 <del>$120.00</del></p>
+                            <div class="text-warning">
+                                <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                    class="fa fa-star"></i><i class="fa fa-star-half"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6">
+                    <div class="card product-card">
+                        <img src="./card images/images (3).jfif" alt="Shoe 4">
+                        <div class="card-body text-center">
+                            <h6>Sports Trainers</h6>
+                            <p class="text-muted mb-1">$130.00 <del>$160.00</del></p>
+                            <div class="text-warning">
+                                <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                    class="fa fa-star"></i><i class="fa fa-star-half"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="card product-card">
+                        <img src="./card images/product-jpeg-500x500.webp" alt="Shoe 4">
+                        <div class="card-body text-center">
+                            <h6>Sports Trainers</h6>
+                            <p class="text-muted mb-1">$130.00 <del>$160.00</del></p>
+                            <div class="text-warning">
+                                <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                    class="fa fa-star"></i><i class="fa fa-star-half"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="card product-card">
+                        <img src="./card images/pexels-felipepelaquim-1895019.jpg" alt="Shoe 4">
+                        <div class="card-body text-center">
+                            <h6>Sports Trainers</h6>
+                            <p class="text-muted mb-1">$130.00 <del>$160.00</del></p>
+                            <div class="text-warning">
+                                <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                    class="fa fa-star"></i><i class="fa fa-star-half"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="card product-card">
+                        <img src="./card images/images.jfif" alt="Shoe 4">
+                        <div class="card-body text-center">
+                            <h6>Sports Trainers</h6>
+                            <p class="text-muted mb-1">$130.00 <del>$160.00</del></p>
+                            <div class="text-warning">
+                                <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                    class="fa fa-star"></i><i class="fa fa-star-half"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="card product-card">
+                        <img src="./card images/images (4).jfif" alt="Shoe 4">
+                        <div class="card-body text-center">
+                            <h6>Sports Trainers</h6>
+                            <p class="text-muted mb-1">$130.00 <del>$160.00</del></p>
+                            <div class="text-warning">
+                                <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                    class="fa fa-star"></i><i class="fa fa-star-half"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <footer class="bg-dark text-white text-center py-3 mt-5">
+                    <div class="container">
+                        <p class="mb-0">&copy; 2025 Your Website Name. All Rights Reserved.</p>
+                        <p class="mb-0">
+                            <a href="#" class="text-white text-decoration-none me-3">Privacy Policy</a>
+                            <a href="#" class="text-white text-decoration-none">Terms of Service</a>
+                        </p>
+                    </div>
+                </footer>
+
+
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
